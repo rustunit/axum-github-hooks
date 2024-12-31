@@ -1,0 +1,18 @@
+[package]
+name = "axum-github-hooks"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+authors = ["extrawurst <mail@rusticorn.com>"]
+documentation = "https://docs.rs/axum-github-hooks"
+repository = "https://github.com/rustunit/axum-github-hooks"
+keywords = ["github", "extractor", "axum", "rust"]
+description = "Axum extractor for GitHub webhooks"
+
+[dependencies]
+axum = { version = "0.7", features = ["macros"] }
+bytes = "1.9"
+octocrab = "0.42"
+serde_json = "1.0"
+thiserror = "2.0"
